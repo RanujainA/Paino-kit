@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    color:blue;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:url("./images/laptopreponsive.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.set{
+    display: flex;
+    align-items: center;
+    height:700px;
+}
+button{
+    height:150px;
+    width:50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    border:5px solid blue;
+}
+@media (min-width:300px) and (max-width:500px){
+    h1{
+        text-align: center;
+        font-size: x-large;
+    }
+    body{
+        background-image: url("./images/istockphoto-1076840920-612x612.jpg");
+        width:30%;
+    }
+    .set{
+        position: absolute;
+        top:-200px;
+        left:30px;
+    }
+    button{
+        height:50px;
+        width:20px;
+        display: inline-flex;
+        border:2px solid blue;
+    }
+}
+@media (min-width:510px) and (max-width:900px){
+    h1{
+        text-align: center;
+        font-size: xx-large;
+    }
+    body{
+        background-image: url("./images/istockphoto-1076840920-612x612.jpg");
+        width:30%;
+    }
+    .set{
+        position: absolute;
+        top:-150px;
+        left:70px;
+    }
+    button{
+        height:80px;
+        width:30px;
+        display: inline-flex;
+        border:2px solid blue;
+    }
+}
+
